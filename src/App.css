@@ -1,0 +1,109 @@
+.wrapper {
+    background-image: url(./img/BG.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    margin: auto;
+    min-width: 20rem;
+    max-width: 120rem;
+    padding: 4.5rem 9rem;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-section__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    border: solid #2b3b45 0.0625rem;
+    border-radius: 0.75rem;
+    background-color: #1f272f;
+}
+
+.header__text {
+    color: #fff;
+    font-size: 32px;
+    padding: 0.5rem 6.875rem;
+    line-height: inherit;
+}
+
+.menu {
+    display: inline-block;
+    font-size: 40px;
+    background-color: #20282f;
+    color: #fff;
+    padding: 10px 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    border-radius: 5px;
+    position: relative;
+    border: solid 0.0625rem #92e8fe;
+}
+
+.menu:hover, .sub-item-menu:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    transition: 1s;
+}
+
+.sub-item-menu {
+    background-color: #1e90ff;
+    color: #fff;
+    padding: 10px 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.menu:hover > .sub-menu {
+    display: block;
+    left: 0;
+    top: 100%;
+}
+
+.main-section__cards {
+    display: flex;
+    padding: 3.25rem 0;
+    justify-content: space-between;
+    font-family: ﻿Roboto-Bold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular, sans-serif;
+}
+
+.cards__card-one {
+    background-color: #2d4934;
+    flex-basis: 30%;
+    padding: 0.5rem 1rem;
+}
+
+.cards__card-two {
+    background-color: #333;
+    flex-basis: 30%;
+    padding: 0.5rem 1rem;
+}
+
+.cards__card-three {
+    background-color: #301103;
+    flex-basis: 30%;
+    padding: 0.5rem 1rem;
+}
+
+
