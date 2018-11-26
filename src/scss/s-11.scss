@@ -1,0 +1,485 @@
+// SP 2018-06-19
+// -------- MOBILE VERSION 320px --------
+.wrapper-s11 {
+  background: #fff url('../img/s-11/noisy-bg.png') repeat;
+  padding: rem(178) 0 rem(64);
+  position: static;
+}
+
+.s11 {
+  text-align: center;
+}
+
+.s11__section-title {
+  font-size: $mobTitle;
+  line-height: 1.2;
+  margin-bottom: rem(14);
+
+  &:before {
+    content: '';
+    display: inline-block;
+    width: rem(16);
+    height: rem(4);
+    background-color: $textBlue;
+    
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    background-color: $textGrey;
+    width: rem(150);
+    height: rem(2);
+    margin: rem(8) auto 0;
+  }
+}
+
+.s11__section-sub-title {
+  font-family: $fontMuseoCyrl;
+  font-weight: 900;
+  font-size: rem(14);
+  line-height: rem(20);
+  color: $textGrey;
+  text-transform: uppercase;
+  letter-spacing: rem(0.5);
+  margin-bottom: rem(36);
+}
+
+.s11__section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.s11__text {
+  font-size: rem(14);
+  font-weight: 600;
+  line-height: 1.714;
+  text-align: left;
+  margin-bottom: rem(26);
+}
+
+.s11__text-bold {
+  font-weight: 900;
+}
+
+.s11__card {
+  background-color: transparent;
+  max-width: rem(292);
+  text-align: left;
+  margin-bottom: rem(44);
+}
+
+.s11__card-technology {
+  font-family: $fontUbuntuMono;
+  font-size: rem(24);
+  font-weight: 700;
+  line-height: 1.2;
+  color: $textBlack;
+  text-align: right;
+  padding-right: rem(4);
+  margin-bottom: rem(14);
+
+  &:before {
+    content: '';
+    display: inline-block;
+    background-color: $textGrey;
+    width: rem(100);
+    height: rem(2);
+    margin-right: rem(4);
+  }
+}
+
+.s11__card-top {
+  display: flex;
+  background-color: #fff;
+  color: $textGrey;
+  border-bottom: rem(1) solid $bgMidLightgrey;
+}
+
+.s11__card-pic {
+  width: rem(130);
+  height: rem(133);
+}
+
+.s11__card-head {
+  padding: rem(16) rem(16) 0 rem(16);
+}
+
+.s11__card-name {
+  background-color: #fff;
+  font-family: $fontUbuntuMono;
+  font-weight: 800;
+  font-size: rem(20);
+  letter-spacing: rem(.75);
+  line-height: 1.2;
+  margin-bottom: rem(12);
+
+  &:after {
+    content: '';
+    display: block;
+    background-color: $textBlue;
+    width: rem(55);
+    height: rem(2);
+    margin: rem(10) 0 0;
+  }
+}
+
+.s11__card-position {
+  font-family: $fontUbuntuMono;
+  font-weight: 900;
+  font-size: rem(14.5);
+  letter-spacing: rem(-0.35);
+}
+
+.s11__card-about-list {
+  background-color: #fff;
+}
+
+.s11__card-about-item {
+  font-family: $fontOpenSans;
+  font-weight: 600;
+  font-size: rem(14.75);
+  letter-spacing: rem(-0.5);
+  padding: 0 rem(28) rem(14);
+  background-color: #fff;
+
+  &:first-child {
+    padding-top: rem(35);
+  }
+
+  &:last-child {
+    padding-bottom: rem(35);
+    margin-bottom: 0;
+  }
+}
+
+.s11__card--1 .s11__card-about-item {
+  display: inline-block;
+  max-width: 60%;
+}
+
+.s11__card-bottom {
+  background-color: $bgLightgrey;
+  padding: rem(32) 0;
+}
+
+.s11__card-shadow-box {
+  box-shadow: 0 rem(15) rem(50) 0 rgba(0,0,0,.3);
+}
+
+.s11__skills-label {
+  font-family: $fontMuseoCyrl;
+  font-weight: 900;
+  font-size: rem(14);
+  letter-spacing: rem(1);
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: rem(20);
+}
+
+.s11__skills {
+  font-family: $fontUbuntuMono;
+  font-weight: 600;
+  font-size: rem(13);
+  letter-spacing: rem(0.85);
+  line-height: 1.3;
+  text-transform: uppercase;
+  padding-left: rem(15);
+}
+
+.btn--s11 {
+  font-size: .825rem;
+  padding: rem(20) rem(32);
+  max-width: rem(292);
+  letter-spacing: rem(1);
+}
+
+//--------  TABLET VERSION 768px --------
+@media (min-width: 768px) {
+  .wrapper-s11 {
+    background-color: #fff;
+    background-image: linear-gradient(90deg, #fff 22%, transparent 22%), url('../img/s-11/noisy-bg.png');
+    padding: 0;
+  }
+
+  .container--s11 {
+    position: relative;
+    top: rem(290);
+  }
+
+  .s11__section-title {
+    font-size: rem(31);
+    margin-bottom: rem(28);
+
+    &:after {
+      display: none;
+    }
+  }
+
+  .s11__section-sub-title {
+    display: inline-block;
+    width: auto;
+    font-size: rem(15);
+    text-align: left;
+    margin-bottom: rem(48);
+  }
+
+  .s11__section-sub-title-top {
+    display: block;
+    border-bottom: solid rem(2) black;
+  }
+
+  .s11__section-sub-title-bot {
+    display: block;
+  }
+
+  .s11__section-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: rem(708);
+    margin: auto;
+  }
+
+  .s11__text {
+    font-size: rem(14.5);
+    max-width: rem(320);
+    position: relative;
+    top: rem(46);
+    margin: 0;
+  }
+
+  .s11__card {
+    order: -1;
+    min-width: rem(332);
+    max-width: rem(332);
+    margin: 0 0 0 rem(9);
+  }
+
+  .s11__card-position {
+    max-width: rem(120);
+    font-size: rem(16);
+  }
+
+  .s11__card-shadow-box {
+    box-shadow: 0 rem(25) rem(30) 0 rgba(0, 0, 0, .3), rem(-13) rem(13) $bgBlue;
+  }
+
+  .s11__card--1 {
+    margin-bottom: rem(72);
+  }
+
+  .s11__card--2 {
+    order: 2;
+    position: relative;
+    top: rem(-322);
+    margin-right: rem(9);
+
+    & > .s11__card-shadow-box {
+      box-shadow: 0 rem(15) rem(30) 0 rgba(0, 0, 0, .25), rem(13) rem(-13) $bgBlue;
+    }
+
+    & > .s11__card-technology {
+      margin-bottom: rem(27);
+    }
+  }
+
+  .s11__card--3 {
+    order: 1;
+  }
+
+  .s11__card-technology {
+    &:before {
+      width: rem(150);
+    }
+  }
+
+  .btn--s11 {
+    padding: rem(20) rem(44);
+    max-width: rem(330);
+    order: 3;
+    position: relative;
+    top: rem(-206);
+    left: rem(392);
+  }
+}
+
+// -------- DESKTOP VERSION 1200px --------
+@media (min-width: 1200px) {
+  .wrapper-s11 {
+    background-image: url('../img/s-11/s11-bg-left.png'),linear-gradient(90deg, #fff 35%, transparent 35%), url('../img/s-11/noisy-bg.png');
+    background-repeat: no-repeat, repeat, repeat;
+  }
+
+  .container--s11 {
+    padding: 0;
+    top: rem(252);
+    //margin: auto;
+  }
+
+  .s11__section-title {
+    font-size: rem(43);
+    margin-bottom: rem(36);
+  }
+
+  .s11__section-sub-title {
+    font-size: rem(19);
+    //margin-bottom: rem(92);
+  }
+
+  .s11__section-sub-title-top {
+    border-bottom: solid rem(3) black;
+    padding-bottom: rem(4);
+  }
+
+  .s11__section-sub-title-bot {
+    padding-top: rem(4);
+  }
+
+  .s11__text {
+    left: -3rem;
+  }
+
+  .s11__section-content {
+    max-width: rem(942);
+    position: relative;
+    top: rem(40);
+    margin: 0 auto 0 0;
+
+    &:before {
+      content: '';
+      background-image: url('../img/s-11/s11-right-box-bg.png');
+      background-color: #8e8979;
+      background-blend-mode: screen;
+      width: rem(412);
+      height: rem(900);
+      position: absolute;
+      top: rem(80);
+      left: rem(1188);
+      box-shadow: 0 rem(20) rem(35) 0 rgba(120, 120, 120, .15)
+    }
+
+    &:after {
+      content: '';
+      background-image: url('../img/s-11/s11-bg-right.png');
+      -webkit-background-size: contain;
+      background-size: contain;
+      width: rem(581);
+      height: rem(1144);
+      position: absolute;
+      top: rem(-128);
+      left: rem(820);
+    }
+  }
+
+  .s11__text {
+    font-size: rem(18);
+    line-height: 1.5;
+    max-width: rem(360);
+  }
+
+  .s11__card {
+    //min-width: rem(430);
+    max-width: rem(430);
+  }
+
+  .s11__card-technology {
+    font-size: rem(31);
+  }
+
+  .s11__card-name {
+    max-width: rem(156);
+    font-size: rem(27);
+    line-height: normal;
+
+    &:after {
+      width: rem(75);
+      height: rem(4);
+      margin-top: rem(12);
+    }
+  }
+
+  .s11__card-position {
+    font-size: rem(17);
+  }
+
+  .s11__card-about-item {
+    font-size: rem(17.5);
+  }
+
+  .s11__skills-label {
+    display: inline-block;
+    width: rem(360);
+    font-size: rem(15);
+    text-align: center;
+  }
+
+  .s11__skills {
+    display: inline-block;
+    max-width: rem(360);
+    font-size: rem(15);
+    padding-left: rem(30);
+  }
+
+  .s11__card--1, .s11__card--3 {
+    margin-left: rem(28);
+  }
+
+  .s11__card--2 {
+    z-index: 1;
+  }
+
+  .s11__card-shadow-box {
+    box-shadow: 0 rem(35) rem(75) 0 rgba(0,0,0,.35), rem(-28) rem(20) $bgBlue;
+  }
+
+  .s11__card--2 {
+    & > .s11__card-shadow-box {
+      box-shadow: 0 rem(15) rem(60) 0 rgba(0,0,0,.35), rem(28) rem(-20) $bgBlue;
+    }
+  }
+
+  .btn--s11 {
+    font-size: rem(16);
+    padding: rem(30) rem(32);
+    top: rem(-255);
+    left: rem(560);
+    box-shadow: 0 rem(10) rem(30) 0 rgba(0,0,0,.2);
+  }
+}
+
+// backgrounds for retina displays
+// the order of the rules from higher display width to lower is important!
+@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), (min-resolution: 192dpi) and (min-width: 1200px) {
+  .wrapper-s11 {
+    background-image: url(../img/s-11/s11-bg-left@2x.png), linear-gradient(90deg, #fff 35%, transparent 0), url(../img/s-11/noisy-bg@2x.png);
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-size: rem(204) rem(780), 100%, rem(100), rem(581) rem(1144);
+  }
+
+  .s11__section-content {
+    &:before {
+      background-image: url('../img/s-11/s11-right-box-bg@2x.png');
+    }
+
+    &:after {
+      background-image: url('../img/s-11/s11-bg-right@2x.png');
+    }
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px) {
+  .wrapper-s11 {
+    background-image: linear-gradient(90deg, #fff 22%, transparent 22%), url('../img/s-11/noisy-bg@2x.png');
+    background-size: 100%, rem(100);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), (min-resolution: 192dpi) and (min-width: 320px) {
+  .wrapper-s11 {
+    background: #fff url('../img/s-11/noisy-bg@2x.png') repeat;
+    background-size: rem(100) auto;
+  }
+}

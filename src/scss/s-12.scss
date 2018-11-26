@@ -1,0 +1,364 @@
+// SP 2018-06-19
+// -------- MOBILE VERSION 320px --------
+.wrapper-s12 {
+  background-color: #fff;
+  padding: rem(52) 0 rem(62);
+}
+
+.s12__section-title {
+  font-size: $mobTitle;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: rem(16);
+
+  &:before {
+    content: '';
+    display: inline-block;
+    width: rem(16);
+    height: rem(4);
+    background-color: $textBlue;
+  }
+
+  &:after {
+    content: '';
+    display: block;
+    background-color: $textGrey;
+    width: rem(150);
+    height: rem(2);
+    margin: rem(8) auto 0;
+  }
+}
+
+.s12__section-sub-title {
+  font-family: $fontMuseoCyrl;
+  font-weight: 900;
+  font-size: rem(14);
+  line-height: rem(20);
+  color: $textGrey;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: rem(0.5);
+  margin-bottom: rem(40);
+}
+
+.s12__about-course-list {
+  text-align: left;
+  list-style-position: outside;
+  margin-bottom: rem(32);
+}
+
+.s12__about-course-list-item {
+  font-family: $fontOpenSans;
+  font-weight: 400;
+  font-size: rem(14.5);
+  line-height: 1.429;
+  color: $textGrey;
+  padding: 0 rem(7) 0;
+  position: relative;
+  margin-left: rem(39);
+  margin-bottom: rem(19);
+}
+
+.circle--bottom-shadow:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  left: rem(-39);
+  width: rem(25);
+  height: rem(25);
+  padding-right: rem(10);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: rem(3) solid $textWhite;
+  box-shadow: 0 rem(2) rem(4) rgba(0,0,0,0.3);  }
+
+.s12__quote {
+  background-image: url('../img/s-12/s12-quote.png');
+  background-repeat: no-repeat;
+  background-position: right rem(50) bottom;
+  font-family: $fontUbuntuMono;
+  font-size: rem(18);
+  color: $textGrey;
+  font-weight: 700;
+  line-height: 1.444;
+  min-height: rem(51);
+  margin-bottom: rem(70);
+}
+
+.s12__video-list {
+  max-width: rem(290);
+  margin: 0 auto;
+}
+
+.s12__overlay {
+  display: none;
+}
+
+.s12__video-list-item {
+  position: relative;
+  margin: 0 auto rem(15);
+  box-shadow: 0 rem(15) rem(30) 0 rgba(0,0,0,.25);
+}
+
+.s12__video-list-item:last-child {
+  margin-bottom: 0;
+}
+
+.s12__circle-play-btn {
+  position: absolute;
+  width: rem(51);
+  height: rem(51);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.s12__video-list-item:hover > .s12__circle-play-btn {
+  z-index: 1;
+}
+
+// -------- TABLET VERSION 768px --------
+@media (min-width: 768px) {
+  .wrapper-s12 {
+    padding: rem(200) 0 0 0;
+  }
+
+  .container--s12 {
+    margin: 0 1.5rem;
+  }
+
+  .s12 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: rem(724);
+    position: relative;
+  }
+
+  .s12-description {
+    max-width: 48%;
+  }
+
+  .s12__section-title {
+    font-size: rem(32);
+    text-align: left;
+    margin-bottom: rem(28);
+
+    &:after {
+      display: none;
+    }
+  }
+
+  .s12__section-sub-title {
+    display: inline-block;
+    width: auto;
+    font-size: rem(15);
+    text-align: right;
+    margin-bottom: rem(48);
+  }
+
+  .s12__section-sub-title-top {
+    display: block;
+    border-bottom: solid rem(2) black;
+  }
+
+  .s12__section-sub-title-bot {
+    display: block;
+  }
+
+  .s12__section-title--part {
+    display: block;
+  }
+
+  .s12__video-list {
+    max-width: 48%;
+    padding-top: rem(106);
+    position: relative;
+
+    &:before {
+      content: '';
+      background: #fff url('../img/s-12/s12-bg-videos-tabl.png') no-repeat;
+      position: absolute;
+      top: rem(-12);
+      left: rem(16);
+      width: rem(316);
+      height: rem(916);
+      -webkit-border-radius: rem(5);
+      -moz-border-radius: rem(5);
+      border-radius: rem(5);
+      display: block;
+      box-shadow: 0 rem(5) rem(5) 0 rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .s12__video-list-item {
+    max-width: rem(318);
+    margin-bottom: rem(30);
+  }
+
+  .s12__quote {
+    font-size: rem(17.5);
+    line-height: 1.5;
+    padding: rem(14) 0 rem(24) rem(29);
+    border-top: rem(2) solid $textGrey;
+    border-left: rem(2) solid $textGrey;
+    position: relative;
+
+    &:before {
+      display: block;
+      content: '';
+      right: 0;
+      top: rem(-4);
+      width: rem(50);
+      height: rem(8);
+      background-color: #fff;
+      position: absolute;
+    }
+
+    &:after {
+      display: block;
+      content: '';
+      top: 0;
+      left: rem(-4);
+      width: rem(6);
+      height: rem(36);
+      background-color: #fff;
+      position: absolute;
+    }
+  }
+}
+
+// -------- DESKTOP VERSION 1200px --------
+@media (min-width: 1200px) {
+  .wrapper-s12 {
+    padding: rem(74) 0 0 0;
+  }
+
+  .container--s12 {
+    padding: 0 0 0 rem(2);
+    margin: auto;
+    position: relative;
+    // enable when merging:
+    top: rem(204);
+    z-index: 2;
+
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: rem(100);
+      left: rem(-360);
+      width: rem(253);
+      height: rem(457);
+      overflow: visible;
+      background-image: url('../img/s-12/s12-bg-left.png');
+    }
+  }
+
+  .s12 {
+    justify-content: flex-start;
+    max-width: rem(876);
+    margin: 0;
+  }
+
+  .s12__section-title {
+    font-size: rem(43);
+    margin-bottom: rem(18);
+  }
+
+  .s12__section-sub-title {
+    width: rem(472);
+    font-size: rem(19);
+    margin-bottom: rem(42);
+  }
+
+  .s12__section-sub-title-top {
+    border-bottom: rem(3) solid #000;
+    padding-bottom: rem(4);
+  }
+
+  .s12__section-sub-title-bot {
+    padding-top: rem(3);
+  }
+
+  .s12-description {
+    max-width: rem(470);
+    margin-right: rem(64);
+  }
+
+  .s12__about-course-list {
+    max-width: rem(443);
+    margin-bottom: rem(68);
+  }
+
+  .s12__about-course-list-item {
+    font-size: rem(16.5);
+    line-height: 1.35;
+    margin-bottom: rem(16);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .s12__quote {
+    max-width: rem(420);
+    font-size: rem(24);
+    line-height: 1.2;
+    background-position-x: 70%;
+    padding: rem(9) 0 rem(22) rem(28);
+    margin-left: rem(6);
+
+    &:before {
+      width: rem(140);
+    }
+
+    &:after {
+      height: rem(45);
+    }
+  }
+
+  .s12__video-list {
+    &:before {
+      content: '';
+      background: #fff url('../img/s-12/s12-bg-videos-pc.png') no-repeat;
+      position: absolute;
+      top: rem(-72);
+      left: rem(18);
+      width: rem(728);
+      height: rem(1005);
+      box-shadow: unset;
+    }
+  }
+}
+
+// backgrounds for retina displays
+// the order of the rules from higher display width to lower is important!
+
+@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), (min-resolution: 192dpi) and (min-width: 1200px) {
+  .container--s12:before {
+    background-image: url('../img/s-12/s12-bg-left@2x.png');
+    background-size: rem(253) rem(457);
+  }
+
+  .s12__video-list:before {
+    background: #fff url('../img/s-12/s12-bg-videos-pc@2x.png') no-repeat;
+    background-size: rem(728) rem(1005);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px) {
+  .s12__video-list:before {
+    background: #fff url('../img/s-12/s12-bg-videos-tabl@2x.png') no-repeat;
+    background-size: rem(316) rem(916);
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), (min-resolution: 192dpi) and (min-width: 320px) {
+  .s12__quote {
+    background-image: url('../img/s-12/s12-quote@2x.png');
+    background-size: rem(61) rem(51);
+  }
+}

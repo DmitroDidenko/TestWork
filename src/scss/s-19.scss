@@ -1,0 +1,141 @@
+.wrapper-sec19 {
+  display: flex;
+  padding-bottom: rem(350);
+  min-height: rem(1100);
+}
+@media (min-width: rem(1200)) {
+  .wrapper-sec19{
+    margin-top: rem(5);
+    background: url("../img/left.png") no-repeat;
+
+  }
+
+}
+.container__section19{
+  display: block;
+  content: inherit;
+}
+
+//.container {
+//  max-width: rem(1200);
+//}
+
+.who {
+  line-height: rem(35);
+  font-size: rem(22);
+  text-align: center;
+}
+
+
+.beard {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: rem(40);
+}
+
+.text-beard {
+  display: block;
+  float: left;
+  margin-top: rem(65);
+  margin-right: rem(50);
+  max-width: rem(350);
+  font-family: $fontTitle;
+}
+
+.content {
+  display: block;
+  width: rem(320);
+  margin-top: rem(25);
+  margin-bottom: rem(25);
+  padding-right: rem(150);
+  padding-top: rem(25);
+  border-top: 2px solid #000;
+  text-align: left;
+}
+
+.granny {
+  margin-top: rem(15);
+}
+
+.container__image {
+  display: block;
+  padding-left: rem(0);
+  max-width: rem(320);
+  max-height: rem(400);
+
+}
+
+@media (min-width: 768px) {
+  .container__image {
+    display: flex;
+    box-shadow: 8px 30px $textBlue,
+    -12px -360px #ffffff,
+    -12px -5px #eeeeee,
+    -25px 5px #ffffff,
+    -70px 48px 70px #eeeeee;
+
+  }
+  .beard{
+    display: block;
+    flex-direction:row;
+  }
+  .cube {
+
+    margin-left: rem(80);
+
+
+  }
+}
+
+@media (min-width: 768px) {
+  .content {
+    display: block;
+    width: rem(400);
+    margin-top: rem(25);
+    padding-top: rem(25);
+    border-top: 2px solid #000;
+    text-align: left;
+  }
+}
+@media (min-width: 1200px) {
+  .container__image {box-shadow:
+    30px 60px $textBlue,
+    30px 90px 20px #eeeeee,
+    -60px 35px #eeeeee,
+    -60px 35px #eeeeee,
+    15px 35px #eeeeee,
+    -65px 40px #ffffff,
+    -70px 48px 40px #eeeeee;
+  }
+  .cube {
+
+    margin-left: rem(80);
+
+
+  }
+}
+
+@media (min-width: 1200px) {
+  .content {
+    display: block;
+    width: rem(400);
+    margin-top: rem(25);
+    padding-top: rem(25);
+    border-top: 2px solid #000;
+    text-align: left;
+  }
+}
+
+.cube {
+  display: flex;
+  margin-top: rem(20);
+  margin-bottom: rem(10);
+  width: rem(280);
+  padding: rem(20) rem(20) rem(20) rem(30);
+  height: rem(110);
+  background-image: url("../img/ramka.jpg");
+
+}
+
+
+

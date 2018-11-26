@@ -1,0 +1,657 @@
+.wrapper-study {
+  background-image: url(../img/fon-study.png);
+  @include bg-img;
+}
+
+.study {
+  padding: rem(40) 0 0;
+  width: 100%;
+}
+
+.study__title {
+  text-align: center;
+  font-size: $mobTitle;
+  font-family: $fontMuseoCyrl;
+  line-height: rem(30);
+  margin-bottom: rem(20);
+}
+
+.study__title::after {
+  content: '';
+  display: block;
+  width: rem(150);
+  height: rem(2);
+  background: $textBlack;
+  margin: auto;
+  margin-top: rem(10);
+}
+
+.study__title:before {
+  width: rem(15);
+  height: rem(4);
+}
+
+.study__sub-title {
+  text-transform: uppercase;
+  font-size: $mobPar;
+  font-weight: 600;
+  font-family: $fontMuseoCyrl;
+  text-align: center;
+  margin-bottom: rem(40);
+}
+
+.study__blue {
+  color: $textBlue;
+}
+
+.about__head {
+  font-size: rem(16);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: $fontMuseoCyrl;
+  line-height: rem(22);
+  margin-bottom: rem(15);
+}
+
+.about__sub {
+  font-size: rem(15);
+  font-family: $fontOpenSans;
+  font-weight: 600;
+  margin-bottom: rem(35);
+}
+
+.about__about-us {
+  padding: 0 rem(18) 0 rem(35);
+}
+
+.about-us__item {
+  font-size: rem(15);
+  font-family: $fontOpenSans;
+  margin-bottom: rem(40);
+  font-weight: 400;
+  position: relative;
+}
+
+.about-us__item::before {
+  position: absolute;
+  left: rem(-30);
+  top: rem(5);
+}
+
+.inform__firms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  min-height: rem(670);
+}
+
+.firms__img {
+  width: 80%;
+  align-self: center;
+}
+
+.first-firm, .second-firm, .third-firm, .fourth-firm, .fives-firm, .eight-firm {
+  background: $textWhite;
+  flex-basis: 49%;
+  height: rem(140);
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 rem(5) rem(5) $bgMidLightgrey;
+}
+
+.six-firm__text {
+  font-family: $fontUbuntuMono;
+  font-size: rem(18);
+  font-weight: 700;
+  color: $textGrey;
+  line-height: rem(22);
+}
+
+.six-firm__text {
+  margin: rem(20) 0 rem(30);
+}
+
+.six-firm__text::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: rem(2);
+  margin-bottom: rem(10);
+  background: $textBlack;
+}
+
+.six-firm {
+  order: -1;
+}
+
+.seven-firm {
+  display: flex;
+  order: 1;
+  line-height: rem(26);
+  padding: rem(40) rem(30) rem(40) rem(20);
+}
+
+.about-us__achieve {
+  padding: rem(50) rem(30);
+  font-size: rem(18);
+  text-transform: uppercase;
+  font-family: $fontMuseoCyrl;
+  font-weight: 600;
+  line-height: rem(25);
+  text-align: center;
+}
+
+.about-us__achieve:before {
+  content: '';
+  display: block;
+  background: $textBlack;
+  width: rem(150);
+  height: rem(2);
+  margin: auto;
+  margin-bottom: rem(8);
+}
+
+.inform__medals {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: rem(1220);
+  align-content: space-between;
+}
+
+.medals__UN, .medals__UA, .medals__ED {
+  background-repeat: no-repeat;
+  box-shadow: 0 rem(10) rem(10) $bgMidLightgrey;
+  padding-top: rem(15);
+  padding-left: rem(15);
+  position: relative;
+  min-height: rem(400);
+  background-color: #fbfbfb;
+}
+
+.medals__UN {
+  background-image: url(../img/fon-un.png);
+  background-size: cover;
+  background-position-x: rem(-220);
+}
+
+.medals__UA {
+  background-image: url(../img/fon-ua.png);
+}
+
+.medals__ED {
+  background-image: url(../img/fon-ed.png);
+  background-size: cover;
+  background-position-x: rem(-80);
+}
+
+.medals__blueword {
+  font-size: rem(16);
+  font-weight: 700;
+  font-family: $fontUbuntuMono;
+  text-transform: none;
+  padding: rem(7) rem(9);
+  margin-bottom: rem(20);
+}
+
+.medals__span {
+  margin-bottom: rem(20);
+}
+
+.UN__text, .UA__text, .ED__text {
+  text-transform: uppercase;
+  font-family: $fontOpenSans;
+  font-size: rem(14);
+  font-weight: 900;
+  margin-bottom: rem(30);
+  letter-spacing: rem(1);
+}
+
+.UN__text {
+  padding-right: rem(60);
+}
+
+.UN__sub-text, .UA__sub-text, .ED__sub-text {
+  font-size: rem(14);
+  font-family: $fontOpenSans;
+  line-height: rem(25);
+}
+
+.UA__sub-text {
+  padding: rem(100) rem(110) rem(10) rem(20);
+}
+
+.ED__sub-text {
+  padding: rem(100) rem(130) rem(10) rem(20);
+}
+
+.medals__img-UN, .medals__img-UA, .medals__img-ED {
+  position: absolute;
+  right: rem(20);
+  bottom: rem(20);
+}
+
+.medals__img-UN {
+  width: rem(90);
+  height: rem(80);
+}
+
+@media (min-width: 768px) {
+  .study {
+    padding: rem(70) rem(80) 0;
+    position: relative;
+  }
+
+  .study::before {
+    content: '';
+    background-image: url(../img/pic-before-b.png);
+    display: block;
+    width: rem(75);
+    height: rem(99);
+    position: absolute;
+    left: rem(56);
+    top: rem(260);
+  }
+
+  .study__title {
+    font-size: $tabTitle;
+    margin-bottom: rem(40);
+  }
+
+  .study__title:before {
+    width: rem(15);
+    height: rem(4);
+  }
+
+  .study__title::after {
+    display: none;
+  }
+
+  .study__sub-title {
+    margin-bottom: rem(90);
+    position: relative;
+  }
+
+  .study__sub-title::before {
+    content: '';
+    display: block;
+    width: rem(300);
+    height: rem(2);
+    background: $textBlack;
+    margin: auto;
+    position: absolute;
+    bottom: rem(-15);
+    left: rem(120);
+    margin-bottom: rem(10);
+  }
+
+  .study__sub-title::after {
+    content: 'специалистов';
+    background: $textBlack;
+    margin-top: rem(10);
+    position: absolute;
+    color: $textBlue;
+    padding: rem(5) rem(7);
+    right: rem(140);
+    bottom: rem(-29);
+  }
+
+  .study__blue {
+    display: none;
+  }
+
+  .study__about {
+    padding: 0 rem(80);
+    position: relative;
+  }
+
+  .study__about:before {
+    background-image: url(../img/pic-before-b.png);
+  }
+
+  .about__head {
+    font-size: rem(17);
+    font-weight: 700;
+    line-height: rem(24);
+    margin-bottom: rem(18);
+    padding-right: rem(80);
+  }
+
+  .about__sub {
+    font-size: rem(16);
+    margin-bottom: rem(55);
+  }
+
+  .about__about-us {
+    padding: 0 rem(40) 0 0;
+  }
+
+  .about__about-us:before {
+    display: block;
+    content: '';
+    width: rem(1);
+    height: rem(370);
+    background: $textBlack;
+    position: absolute;
+    left: rem(-2);
+    top: rem(36);
+  }
+
+  .about-us__item:last-child {
+    margin-bottom: 0;
+  }
+
+  .about-us__item {
+    margin-bottom: rem(30);
+    line-height: rem(22);
+  }
+
+  .about-us__item::before {
+    position: absolute;
+    left: rem(-40);
+    top: rem(10);
+  }
+
+  .about-us__item::after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: rem(42);
+    height: rem(1);
+    background: $textBlack;
+    left: rem(-82);
+    top: rem(18);
+  }
+
+  .inform__firms {
+    flex-direction: column;
+    max-height: rem(700);
+    margin-bottom: rem(100);
+    min-height: rem(560);
+    position: relative;
+  }
+
+  .firms__box {
+    width: rem(180);
+    height: rem(180);
+  }
+
+  .first-firm {
+    order: 0;
+    box-shadow: 0 rem(10) rem(10) $bgMidLightgrey;
+  }
+
+  .second-firm {
+    order: 1;
+    box-shadow: 0 rem(10) rem(10) $bgMidLightgrey;
+  }
+
+  .third-firm {
+    order: 2;
+    box-shadow: 0 rem(5) rem(5) $bgMidLightgrey;
+  }
+
+  .fourth-firm {
+    order: 0;
+    box-shadow: 0 rem(10) rem(10) $bgMidLightgrey;
+  }
+
+  .fives-firm {
+    order: 1;
+    box-shadow: 0 rem(5) rem(5) $bgMidLightgrey;
+  }
+
+  .six-firm {
+    order: 1;
+    height: rem(180);
+    width: rem(370);
+    transform: rotate(90deg);
+    position: absolute;
+    right: rem(-100);
+    bottom: rem(100);
+    padding: rem(40) 0;
+  }
+  .six-firm__text {
+    padding: 0 rem(30);
+  }
+
+  .seven-firm {
+    order: 0;
+  }
+
+  .eight-firm {
+    order: 1;
+    box-shadow: 0 rem(10) rem(10) $bgMidLightgrey;
+  }
+
+  .about-us__achieve {
+    padding: 0;
+    font-size: rem(20);
+    text-align: center;
+    margin-bottom: rem(50);
+  }
+
+  .about-us__achieve:before {
+    width: rem(370);
+    height: rem(4);
+    margin: auto;
+    margin-bottom: rem(8);
+  }
+
+  .inform__medals {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: rem(860);
+    justify-content: space-between;
+  }
+
+  .medals__UA {
+    flex-basis: 48%;
+  }
+
+  .medals__ED {
+    flex-basis: 48%;
+  }
+
+  .medals__blueword {
+    font-size: rem(16);
+    font-weight: 700;
+    font-family: $fontUbuntuMono;
+    text-transform: none;
+    padding: rem(7) rem(9);
+    margin-bottom: rem(20);
+  }
+
+  .medals__span {
+    margin-bottom: rem(20);
+    transform: rotate(90deg);
+    position: absolute;
+    left: rem(-10);
+    top: rem(70);
+    letter-spacing: rem(1);
+  }
+
+  .UN__text {
+    padding: rem(10) rem(40) 0 rem(200);
+    font-size: rem(20);
+    letter-spacing: 0;
+  }
+
+  .UA__text {
+    padding: rem(10) rem(10) 0 rem(100);
+    font-size: rem(20);
+    letter-spacing: 0;
+  }
+
+  .ED__text {
+    padding: rem(10) rem(20) 0 rem(100);
+    font-size: rem(18);
+    letter-spacing: 0;
+  }
+
+  .UN__sub-text {
+    padding: rem(120) rem(200) rem(30) rem(30);
+  }
+
+  .UA__sub-text {
+    padding: rem(160) rem(100) rem(10) rem(20);
+  }
+
+  .ED__sub-text {
+    padding: rem(140) rem(130) rem(10) rem(20);
+  }
+
+  .medals__img-UN {
+    width: rem(130);
+    height: rem(110);
+  }
+}
+
+@media (min-width: 1200px) {
+  .study {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    max-width: rem(1920);
+    position: relative;
+    top: rem(130);
+  }
+
+  .study::before {
+    left: rem(-64);
+    top: rem(210);
+  }
+
+  .study__title {
+    font-size: $dtTitle;
+    font-weight: 400;
+  }
+
+  .study__sub-title {
+    font-size: rem(20);
+  }
+  .study__sub-title::before {
+    width: rem(400);
+    height: rem(4);
+    bottom: rem(-15);
+    left: rem(320);
+  }
+
+  .study__sub-title::after {
+    right: rem(360);
+    bottom: rem(-33);
+  }
+  .study__inform {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .study__about {
+    flex-basis: 45%;
+    padding: 0 0 0 rem(40);
+  }
+
+  .inform__firms {
+    flex-basis: 50%;
+    margin-bottom: 0;
+  }
+
+  .firms__box {
+    flex-basis: 32%;
+  }
+
+  .first-firm {
+    order: 0;
+    box-shadow: 0 rem(15) rem(15) $bgMidLightgrey;
+  }
+
+  .second-firm {
+    order: 1;
+    box-shadow: none;
+  }
+
+  .third-firm {
+    order: 2;
+    box-shadow: 0 rem(5) rem(5) $bgMidLightgrey;
+  }
+
+  .fourth-firm {
+    order: 0;
+    box-shadow: 0 rem(15) rem(15) $bgMidLightgrey;
+  }
+
+  .fives-firm {
+    order: 1;
+    box-shadow: 0 rem(5) rem(5) $bgMidLightgrey;
+  }
+
+  .six-firm__text {
+    padding: 0 rem(30);
+  }
+
+  .seven-firm {
+    order: 0;
+  }
+
+  .eight-firm {
+    order: 1;
+    box-shadow: 0 rem(15) rem(15) $bgMidLightgrey;
+  }
+
+  .about__about-us:before {
+    left: rem(-42);
+    top: rem(58);
+  }
+
+  .about-us__item {
+    font-size: $dtPar;
+  }
+
+  .inform__medals {
+    min-height: rem(200);
+  }
+
+  .medals__UN {
+    flex-basis: 48%;
+  }
+
+  .medals__UA {
+    flex-basis: 24%;
+  }
+
+  .medals__ED {
+    flex-basis: 24%;
+  }
+
+  .UN__text {
+    padding: rem(10) rem(40) 0 rem(200);
+    margin-bottom: 0;
+  }
+
+  .UA__text {
+    padding: rem(10) rem(10) 0 rem(100);
+    margin-bottom: 0;
+  }
+
+  .ED__text {
+    padding: rem(10) rem(20) 0 rem(100);
+    margin-bottom: 0;
+  }
+
+  .UN__sub-text {
+    padding: rem(140) rem(200) rem(0) rem(30);
+  }
+
+  .UA__sub-text {
+    padding: rem(100) rem(100) rem(0) rem(20);
+  }
+
+  .ED__sub-text {
+    padding: rem(80) rem(130) rem(0) rem(20);
+  }
+  .about-us__achieve {
+    position: relative;
+    top: rem(-20);
+    left: rem(20);
+    text-align: left;
+  }
+}

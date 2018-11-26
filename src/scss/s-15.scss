@@ -1,0 +1,339 @@
+//----------------------BACKGROUND
+
+.wrapper-s-15 {
+  padding: rem(58) 0;
+  background-color: #fafafa;
+}
+
+//----------------------TITLE
+
+.title {
+  &--mobFont {
+    font-size: $mobTitle;
+    text-align: center;
+    line-height: rem(30);
+  }
+
+  &--margin {
+    margin-bottom: rem(38);
+  }
+}
+
+//----------------------SUBTITLE
+
+.sub-title-s-15 {
+  font-family: $fontUbuntuMono;
+  font-weight: 700;
+  font-size: rem(20);
+  margin-bottom: rem(20);
+  color: $textGrey;
+
+  &__after::after {
+    content: '';
+    display: block;
+    width: rem(80);
+    height: rem(3);
+    background-color: $textBlue;
+    margin-top: rem(10);
+  }
+
+  &--tborder {
+    border-top: rem(2) solid $bgDarkgrey;
+  }
+
+  &--tpadding {
+    padding-top: rem(12);
+  }
+
+  &--font {
+    font-family: $fontOpenSans;
+    font-weight: 900;
+    color: $textGrey;
+    font-size: $mobPar;
+    text-transform: uppercase;
+  }
+
+}
+
+//----------------------TEXT
+
+.text-s-15-16 {
+  font-family: $fontText;
+  font-size: $mobPar;
+  font-weight: 600;
+  line-height: rem(24);
+  color: $textBlack;
+
+  &--mbot30 {
+    margin-bottom: rem(30);
+  }
+
+  &--mbot50 {
+    margin-bottom: rem(50);
+  }
+
+  &--bold {
+    font-weight: 900;
+  }
+}
+
+//----------------------BOOLETS
+
+.comp-menu {
+
+}
+
+.learn-item::before {
+  content: '';
+  display: inline-block;
+  width: rem(18);
+  height: rem(18);
+  border-radius: 50%;
+  background-color: $bgDarkgrey;
+  position: absolute;
+  left: rem(-39);
+  -webkit-transform: translateY(rem(5));
+  -ms-transform: translateY(rem(5));
+  transform: translateY(rem(5));
+}
+
+.learn-item {
+  display: block;
+  //text-indent: -2rem;
+  position: relative;
+  margin-left: rem(39);
+  margin-bottom: rem(16);
+
+}
+
+//---------------MEDIA-768---------------------------------------------------
+
+@media(min-width: 768px) {
+  .wrapper-s-15 {
+    background-image: url("../img/s-15/pics/triangle.png");
+    background-color: #fafafa;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    padding: rem(0) 0 rem(48);
+  }
+
+  @media(-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+    .wrapper-s-15 {
+      background-image: url("../img/s-15/pics/triangle@2x.png");
+      background-color: #fafafa;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center bottom;
+      padding: rem(0) 0 rem(48);
+    }
+  }
+
+  .title-768 {
+    font-size: rem(30);
+
+    &--padtop {
+      padding-top: rem(70);
+      width: 77%;
+      margin: 0 auto rem(56);
+    }
+  }
+
+  .sub-title-s-15 {
+    font-size: rem(16);
+    margin-bottom: rem(30);
+
+    &--tpadding {
+      padding-top: 0;
+    }
+
+    &--tborder {
+      border-top: none;
+    }
+  }
+
+  .section-15 {
+    width: 94%;
+    margin: auto;
+    position: relative;
+    background-color: #fafafa;
+    -webkit-box-shadow: 0 5px 20px 7px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 20px 7px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+
+    &__before::before {
+      content: '';
+      display: inline-block;
+      width: rem(17);
+      height: 56%;
+      background-color: rgba(0, 188, 212, 0.5);
+      position: absolute;
+      left: rem(-17);
+      top: 44%;
+    }
+
+    &__after::after {
+      content: '';
+      display: inline-block;
+      width: 82%;
+      height: rem(17);
+      background-color: rgba(0, 188, 212, 0.5);
+      position: absolute;
+      bottom: rem(-17);
+      right: calc(18% + 1.0625rem);
+
+    }
+  }
+
+  .specific {
+    width: prc(614, 690);
+    margin: auto;
+    padding-bottom: rem(56);
+    position: relative;
+    z-index: 1;
+
+    &__before::before {
+      content: '';
+      display: block;
+      width: rem(1);
+      height: 100%;
+      background-color: #dadadb;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      z-index: -1;
+    }
+  }
+  //-----------BORDERED BOX
+  .bordered-plate {
+    border: rem(3) solid $textGrey;
+    //position: relative;
+    border-image-source: url("../img/s-15/pics/bordera.png");
+    border-image-slice: 3 3 3 3;
+    border-image-width: 3px 3px 3px 3px;
+    border-image-repeat: stretch stretch;
+    padding: rem(36) rem(24);
+  }
+
+}
+
+//-----------------------------------MEDIA-1200---------------
+
+@media(min-width: 1200px) {
+  .wrapper-s-15{
+    padding-bottom: rem(58);
+  }
+
+  .container {
+    &--position {
+      position: relative;
+
+    }
+
+    &__before::before {
+      content: '';
+      background-image: url('../img/s-15/pics/abstract-bg.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      display: block;
+      width: 76%;
+      height: 76%;
+      position: absolute;
+      right: 80%;
+      bottom: 50%;
+      -webkit-transform: translate(50%, 50%);
+      -ms-transform: translate(50%, 50%);
+      transform: translate(50%, 50%);
+    }
+
+    &__after::after {
+      content: '';
+      display: block;
+      width: rem(58);
+      height: 43%;
+      background-color: rgba(0, 188, 212, 0.5);
+      position: absolute;
+      left: 98%;
+      bottom: 52%;
+      //z-index: -1;
+      -webkit-box-shadow: 0 48px 35px 3px rgba(0,0,0,0.1);
+      box-shadow: 0 48px 35px 3px rgba(0,0,0,0.1);
+    }
+  }
+
+  @media(-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
+    .container__before::before {
+      background-image: url('../img/s-15/pics/abstract-bg@2x.png');
+    }
+  }
+
+  .resume{
+    width: 100%;
+  }
+
+  .section-15{
+    width: 100%;
+  }
+
+  .section-15__before::before {
+    width: rem(36);
+    left: rem(-36);
+  }
+
+  .section-15__after::after {
+    height: rem(36);
+    bottom: rem(-36);
+    right: calc(18% + 2.25rem);
+
+  }
+
+  .text-s-15-16{
+    font-size: rem(18);
+  }
+
+
+  .text-container{
+    width: 90%;
+    margin-right: auto;
+  }
+
+  .bordered-plate {
+    width: 89%;
+    margin-left: auto;
+    padding: rem(36) rem(36);
+  }
+
+  .title-1200{
+    font-size: rem(42);
+    line-height: rem(48);
+  }
+
+  .title--padtop {
+    padding-top: rem(108);
+    width: 77%;
+    margin: 0 auto rem(56);
+  }
+
+  .sub-title-s-15{
+    font-size: rem(30);
+
+    &--font{
+      font-size: rem(18);
+    }
+  }
+
+
+  .specific{
+    padding-bottom: rem(90);
+    width: 82%;
+  }
+
+  .sub-title-s-15__after::after{
+    width: rem(113);
+    height: rem(4);
+  }
+
+  .comp-menu{
+    margin-bottom: rem(36);
+  }
+}
