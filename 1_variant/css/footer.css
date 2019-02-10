@@ -1,9 +1,25 @@
-.footer{
-    background-color: #000;
-    padding: 2rem 0;
-    color: #ffffff;
+.footer__section {
+    background-color: #0070af;
+    padding: 4rem 0;
     text-align: center;
 }
-.footer-text{
-    color: #ffffff;
+
+.footer__text {
+    color: #fff;
+}
+
+@media (min-width: 320px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 960px) {
+
+}
+
+@media (min-width: 1240px) {
+
 }
