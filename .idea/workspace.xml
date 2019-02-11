@@ -2,145 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f93fe714-f3a3-4d66-9598-9b1922da4c3c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1_variant/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/css/styles.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Museo Sans Cyrl W03 300/Museo Sans Cyrl W03 300.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Museo Sans Cyrl W03 300/Museo Sans Cyrl W03 300.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Museo Sans Cyrl W03 900/Museo Sans Cyrl W03 900.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Museo Sans Cyrl W03 900/Museo Sans Cyrl W03 900.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Open Sans Extrabold/Open Sans Extrabold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Open Sans Extrabold/Open Sans Extrabold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Open Sans Semibold/Open Sans Semibold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Open Sans Semibold/Open Sans Semibold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Open Sans/Open Sans.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Open Sans/Open Sans.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Proxima Nova Extrabold/Proxima Nova Extrabold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Proxima Nova Extrabold/Proxima Nova Extrabold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Proxima Nova/Proxima Nova.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Proxima Nova/Proxima Nova.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Ubuntu Mono Bold/Ubuntu Mono Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Ubuntu Mono Bold/Ubuntu Mono Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Ubuntu Mono/Ubuntu Mono.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/fonts/Ubuntu Mono/Ubuntu Mono.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/ED.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/UA.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/UN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/bear.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/border.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/fon-ed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/fon-guarantee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/fon-study.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/fon-ua.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/fon-un.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/jorax.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/man.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/pic-after.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/pic-before-b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/pic-before-w.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/pp1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/pp2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/pp3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/pp4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/pp5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/pp6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/ramka.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-11/noisy-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-11/noisy-bg@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-11/s11-avatar-mob.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-11/s11-avatar-mob@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-11/s11-avatar-pc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-11/s11-avatar-pc@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-11/s11-bg-left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-11/s11-bg-left@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-11/s11-bg-right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-11/s11-bg-right@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-11/s11-right-box-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-11/s11-right-box-bg@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/noisy-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/noisy-bg@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-bg-left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-bg-left@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-bg-videos-pc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-bg-videos-pc@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-bg-videos-tabl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-bg-videos-tabl@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-quote.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-quote@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-round-play-button.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-round-play-button@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video1-mob.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video1-mob@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video1-pc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video1-pc@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video1-tabl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video1-tabl@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video2-mob.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video2-mob@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video2-pc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video2-pc@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video2-tabl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video2-tabl@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video3-mob.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video3-mob@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video3-pc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video3-pc@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video3-tabl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-12/s12-video3-tabl@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-15/pics/abstract-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-15/pics/abstract-bg@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-15/pics/bordera.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-15/pics/triangle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-15/pics/triangle@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-16/pics/bgpic-@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-16/pics/bgpic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-16/pics/borderb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-16/pics/noise.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-16/pics/noise@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-16/pics/screen-@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-16/pics/screen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-16/pics/small-@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-16/pics/small.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-16/pics/tablet-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-16/pics/tablet-pic@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-17/cross.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-17/faq720.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-17/faq720@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-17/faqdesktop.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-17/faqdesktop@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-18/xmark.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-18/xmark@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-18/yes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-18/yes@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-3-4/bubles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-3-4/code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-3-4/code@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-3-4/laptop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s-3-4/laptop@2X.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s13/bg-grid-bot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s13/bg-grid.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s13/hud.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s13/hud@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s13/s13-pic1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s13/s13-pic1@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s13/s13-pic2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s13/s13-pic2@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s13/s13-pic3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s13/s13-pic3@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s13/s13-pic4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s13/s13-pic4@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s13/s13-pic5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s13/s13-pic5@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s13/whitenoise.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s14/bg-black-noise.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s14/bg-left-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s14/bg-left-pic@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s14/bg-right-pic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s14/bg-right-pic@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/s14/s-14-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/img/section.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/1_variant/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_variant/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/1_variant/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_variant/css/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/1_variant/css/header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_variant/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/1_variant/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_variant/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/1_variant/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_variant/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/1_variant/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -152,12 +20,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1_variant/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="192">
+              <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#2;n#div#1;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#3;n#div#1;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_variant/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="44" selection-start-line="44" selection-start-column="2" selection-end-line="62" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_variant/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -168,6 +60,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -177,9 +70,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/1_variant/css/banner.css" />
+        <option value="$PROJECT_DIR$/1_variant/css/container.css" />
+        <option value="$PROJECT_DIR$/1_variant/css/contact.css" />
+        <option value="$PROJECT_DIR$/1_variant/css/pricing.css" />
+        <option value="$PROJECT_DIR$/1_variant/css/team.css" />
+        <option value="$PROJECT_DIR$/1_variant/css/work.css" />
+        <option value="$PROJECT_DIR$/1_variant/css/style.css" />
+        <option value="$PROJECT_DIR$/1_variant/css/reset.css" />
+        <option value="$PROJECT_DIR$/1_variant/css/footer.css" />
+        <option value="$PROJECT_DIR$/1_variant/css/header.css" />
+        <option value="$PROJECT_DIR$/1_variant/index.js" />
+        <option value="$PROJECT_DIR$/1_variant/js/index.js" />
+        <option value="$PROJECT_DIR$/1_variant/css/main.css" />
         <option value="$PROJECT_DIR$/1_variant/index.html" />
       </list>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="389" />
@@ -193,7 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,19 +121,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Team-Work" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../goit-bootcamp/JavaScript/Tasks in Class 10.07 Лштаючі кнопки" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="F:\УЧЕНИЯ\Git\TestWork\node_modules\stylelint" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\УЧЕНИЯ\Git\TestWork\1_variant\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -246,26 +164,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549809271036</updated>
-      <workItem from="1549809273327" duration="321000" />
+      <workItem from="1549809273327" duration="815000" />
+      <workItem from="1549810122466" duration="855000" />
+      <workItem from="1549811231002" duration="676000" />
+      <workItem from="1549811930969" duration="1787000" />
+      <workItem from="1549813745547" duration="1786000" />
+      <workItem from="1549815769597" duration="924000" />
+      <workItem from="1549817955807" duration="1883000" />
+      <workItem from="1549819868281" duration="1784000" />
+      <workItem from="1549821685288" duration="1861000" />
+      <workItem from="1549824382970" duration="257000" />
+      <workItem from="1549824665485" duration="1502000" />
+      <workItem from="1549826202624" duration="1778000" />
+      <workItem from="1549828017205" duration="1779000" />
+      <workItem from="1549829839611" duration="1793000" />
+      <workItem from="1549831680047" duration="1787000" />
+      <workItem from="1549833502243" duration="1779000" />
+      <workItem from="1549835492861" duration="1780000" />
+      <workItem from="1549837308825" duration="1777000" />
+      <workItem from="1549839118739" duration="989000" />
+      <workItem from="1549878542953" duration="1779000" />
+      <workItem from="1549880348837" duration="1787000" />
+      <workItem from="1549882204809" duration="1588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="321000" />
+    <option name="totallyTimeSpent" value="32746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Gulp" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.076045625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -273,19 +208,115 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.118504435" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/1_variant/img/mountains.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_variant/img/sailboat.jpg" />
+    <entry file="file://$PROJECT_DIR$/1_variant/css/banner.css" />
+    <entry file="file://$PROJECT_DIR$/1_variant/css/contact.css" />
+    <entry file="file://$PROJECT_DIR$/1_variant/css/pricing.css" />
+    <entry file="file://$PROJECT_DIR$/1_variant/css/team.css" />
+    <entry file="file://$PROJECT_DIR$/1_variant/css/work.css" />
+    <entry file="file://$PROJECT_DIR$/1_variant/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_variant/img/fjords.jpg" />
+    <entry file="file://$PROJECT_DIR$/1_variant/img/avatar.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_variant/img/lights.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_variant/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_variant/css/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_variant/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/embed.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_variant/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_variant/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="44" selection-start-line="44" selection-start-column="2" selection-end-line="62" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1_variant/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="192">
+          <caret line="52" column="38" selection-start-line="52" selection-start-column="38" selection-end-line="52" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#2;n#div#1;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#3;n#div#1;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

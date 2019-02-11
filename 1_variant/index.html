@@ -45,16 +45,34 @@
                         amet, consequatur deleniti doloremque dolores dolorum ea, explicabo fuga fugiat id incidunt
                         inventore ipsam itaque laudantium magni molestiae mollitia, necessitatibus nemo nobis non
                         nostrum numquam omnis possimus provident quaerat quam quis repudiandae sed tempora unde
-                        veritatis vitae voluptates! Totam?</p>
+                        veritatis vitae.?</p>
                 </figure>
 
             </div>
 
             <div class="main__slider">
-                <img src="./img/river.jpg" alt="nature" class="main__picture">
-                <!--<img src="./img/lights.jpg" alt="nature" class="picture">-->
-                <!--<img src="./img/mountains.jpg" alt="nature" class="picture">-->
-                <!--<img src="./img/sea.jpg" alt="nature" class="picture">-->
+                <div class="mySlides fade">
+                    <img src="./img/river.jpg" alt="nature" class="main__picture" style="width: 100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./img/lights.jpg" alt="nature" class="main__picture" style="width: 100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./img/mountains.jpg" alt="nature" class="main__picture" style="width: 100%">
+                </div>
+                <div class="mySlides fade">
+                    <img src="./img/sea.jpg" alt="nature" class="main__picture" style="width: 100%">
+                </div>
+                <a class="prev" onclick="pluslides(-1)">&#10094</a>
+                <a class="next" onclick="pluslides(1)">&#10095</a>
+
+                <div class="slider__nav">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+
             </div>
 
             <div class="main__price">
@@ -81,12 +99,16 @@
     <div class="container">
         <section class="footer__section">
             <p class="footer__logo">Useful Links</p>
-            <a class="footer__text" href="https://www.w3schools.com/w3css/" target="_blank">w3schools</a>
-            <a class="footer__text" href="https://learn.javascript.ru/" target="_blank">learn.javascript</a>
-            <a class="footer__text" href="https://habr.com/ru/" target="_blank">habr</a>
+            <div class="footer__text">
+                <a class="footer__link" href="https://www.w3schools.com/w3css/" target="_blank">w3schools</a>
+                <a class="footer__link" href="https://learn.javascript.ru/" target="_blank">learn.javascript</a>
+                <a class="footer__link" href="https://habr.com/ru/" target="_blank">habr</a>
+            </div>
         </section>
     </div>
 </footer>
+
+<script src="js/index.js"></script>
 
 </body>
 </html>
