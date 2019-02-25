@@ -1,0 +1,153 @@
+.main__galaxy {
+    position: relative;
+    min-height: 40rem;
+    background-image: url(../img/galaxy.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.galaxy__orbit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.orbit__moon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    /*transform: rotate(360deg);*/
+    animation: linear 10s orbit infinite;
+    z-index: 0;
+}
+
+.land {
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.moon {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    /*animation: linear 10s orbit infinite;*/
+    z-index: 0;
+}
+
+/*@-webkit-keyframes orbit {*/
+/*from {*/
+/*-webkit-transform: rotate(180deg) translateX(150px) rotate(0deg);*/
+/*}*/
+/*to {*/
+/*-webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg);*/
+/*}*/
+/*}*/
+
+@keyframes orbit {
+    0% {
+        /*width: 2rem;*/
+        /*height: 2rem;*/
+        /*top: 6rem;*/
+        /*right: -10rem;*/
+        /*z-index: 2;*/
+    }
+    /*10% {*/
+    /*top: 12rem;*/
+    /*right: -8rem;*/
+    /*}*/
+    /*20% {*/
+    /*top: 24rem;*/
+    /*right: -1rem;*/
+    /*}*/
+    25% {
+        /*top: 25rem;*/
+        /*right: 8rem;*/
+
+        /*transform: rotate(90deg);*/
+    }
+    /*30% {*/
+    /*width: 5rem;*/
+    /*height: 5rem;*/
+    /*top: 28rem;*/
+    /*right: 18rem;*/
+    /*}*/
+
+    /*39% {*/
+    /*width: 10rem;*/
+    /*height: 10rem;*/
+    /*}*/
+
+    /*40% {*/
+    /*width: 8rem;*/
+    /*height: 8rem;*/
+    /*top: 22rem;*/
+    /*right: 25rem;*/
+    /*}*/
+
+    50% {
+        /*top: 25rem;*/
+        /*right: 40rem;*/
+        /*transform: rotate(180deg);*/
+
+    }
+
+    /*60% {*/
+    /*width: 6rem;*/
+    /*height: 6rem;*/
+    /*top: 19rem;*/
+    /*right: 26rem;*/
+    /*}*/
+    /*70% {*/
+    /*top: 14rem;*/
+    /*right: 22rem;*/
+    /*z-index: 0;*/
+    /*}*/
+    75% {
+        /*top: 7rem;*/
+        /*right: 20rem;*/
+        /*z-index: 0;*/
+
+        /*transform: rotate(270deg);*/
+
+    }
+    /*80% {*/
+    /*top: 10rem;*/
+    /*right: 20rem;*/
+    /*}*/
+    /*90% {*/
+    /*top: 7rem;*/
+    /*right: 7rem;*/
+    /*}*/
+
+    /*95% {*/
+    /*top: 6rem;*/
+    /*right: -3rem;*/
+    /*}*/
+
+    /*98% {*/
+    /*top: 7rem;*/
+    /*right: -10rem;*/
+    /*}*/
+    /*99% {*/
+    /*top: 9rem;*/
+    /*right: -10rem;*/
+    /*}*/
+    100% {
+        /*width: 2rem;*/
+        /*height: 2rem;*/
+        /*top: 6rem;*/
+        /*right: -10rem;*/
+        transform: rotate(360deg);
+    }
+}
