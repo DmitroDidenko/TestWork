@@ -1,13 +1,8 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
+plusSlides = n => showSlides(slideIndex += n);
+currentSlide = n => showSlides(slideIndex = n);
 
 function showSlides(n) {
     let i;
@@ -29,3 +24,4 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dot[slideIndex - 1].className += "active";
 }
+<canvas id="canvas" width="500" height="500"></canvas>

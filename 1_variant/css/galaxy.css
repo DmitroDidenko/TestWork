@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
+    margin-bottom: 2.5rem;
 }
 
 .galaxy__orbit {
@@ -20,9 +21,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: red;
     /*transform: rotate(360deg);*/
-    animation: linear 10s orbit infinite;
+    animation: linear 19s orbit infinite;
     z-index: 0;
 }
 
